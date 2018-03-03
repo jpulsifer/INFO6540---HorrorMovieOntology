@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.horrormovies.com/ontologies/horrormovies.jill#"
      xml:base="http://www.horrormovies.com/ontologies/horrormovies.jill"
+     xmlns:cats="http://www.cat.com/ontologies/cats.owl/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -9,6 +10,87 @@
     <owl:Ontology rdf:about="http://www.horrormovies.com/ontologies/horrormovies.jill">
         <rdfs:comment>A horror movie ontology that describes the various types of films within this genre, their recommended audience ratings, when they were released, and their country of production.</rdfs:comment>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000181 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000181">
+        <cats:cat_0000182>A brief outline of the movie</cats:cat_0000182>
+        <rdfs:label xml:lang="en">synopsis</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000182 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000182">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000176 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000176">
+        <rdfs:label xml:lang="en">hasRating</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000177 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000177">
+        <rdfs:label xml:lang="en">hasReleaseDate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000178 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000178">
+        <rdfs:label xml:lang="en">hasReleaseCountry</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000179 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000179">
+        <rdfs:subPropertyOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000178"/>
+        <rdfs:label xml:lang="en">hasGenre</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000180 -->
+
+    <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000180">
+        <rdfs:subPropertyOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000178"/>
+        <rdfs:label xml:lang="en">hasMovie</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -34,6 +116,8 @@
     <!-- http://www.cat.com/ontologies/cats.owl/cat_0000001 -->
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000001">
+        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000000"/>
+        <cats:cat_0000182>The film horror franchise is an extremely large and popular genre, with numerous subgenres that focus on various types of human, natural, and supernatural horrors.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Genre</rdfs:label>
     </owl:Class>
     
@@ -42,6 +126,8 @@
     <!-- http://www.cat.com/ontologies/cats.owl/cat_0000003 -->
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000003">
+        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000000"/>
+        <cats:cat_0000182>Horror movies come with a variety of recommended audience ratings.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Rating</rdfs:label>
     </owl:Class>
     
@@ -50,6 +136,7 @@
     <!-- http://www.cat.com/ontologies/cats.owl/cat_0000004 -->
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000004">
+        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000000"/>
         <rdfs:label xml:lang="en">Release_Decade</rdfs:label>
     </owl:Class>
     
@@ -58,6 +145,7 @@
     <!-- http://www.cat.com/ontologies/cats.owl/cat_0000005 -->
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000005">
+        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000000"/>
         <rdfs:label xml:lang="en">Release_Country</rdfs:label>
     </owl:Class>
     
@@ -66,6 +154,7 @@
     <!-- http://www.cat.com/ontologies/cats.owl/cat_0000006 -->
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000006">
+        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000000"/>
         <rdfs:label xml:lang="en">Film_Color</rdfs:label>
     </owl:Class>
     
@@ -75,6 +164,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000007">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000001"/>
+        <cats:cat_0000182>Films featuring graphic violence and a large amount of blood.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Gory</rdfs:label>
     </owl:Class>
     
@@ -84,6 +174,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000008">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000007"/>
+        <cats:cat_0000182>Gory films featuring scenes of victim abduction and torture.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Torture</rdfs:label>
     </owl:Class>
     
@@ -93,6 +184,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000009">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000007"/>
+        <cats:cat_0000182>Gory films with especially messy death scenes.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Splatter</rdfs:label>
     </owl:Class>
     
@@ -102,6 +194,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000010">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000007"/>
+        <cats:cat_0000182>Gory movies featuring scenes of human cannibalism.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Cannibal</rdfs:label>
     </owl:Class>
     
@@ -111,6 +204,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000011">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000007"/>
+        <cats:cat_0000182>Gory films that full of extreme graphic violence and disturbing content.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Extreme</rdfs:label>
     </owl:Class>
     
@@ -120,6 +214,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000012">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000001"/>
+        <cats:cat_0000182>Films that center around the mental breakdown, manipulation, or torture of an individual.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Psychological</rdfs:label>
     </owl:Class>
     
@@ -129,6 +224,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000013">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000012"/>
+        <cats:cat_0000182>Psychological films that focus on common areas of extreme fear.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Phobia</rdfs:label>
     </owl:Class>
     
@@ -138,6 +234,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000014">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000012"/>
+        <cats:cat_0000182>Psychological films the focus on the mental breakdown and delusions of central figures.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Madness_Paranoia</rdfs:label>
     </owl:Class>
     
@@ -147,6 +244,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000015">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000012"/>
+        <cats:cat_0000182>Psychological films that occur primarily inside a home that is being invaded by intrudors, often resulting in the psychological torture of the occupants.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Home_Invasion</rdfs:label>
     </owl:Class>
     
@@ -156,6 +254,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000016">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000001"/>
+        <cats:cat_0000182>Films featuring a particular killer or killers who create fear and panic for other individuals.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Killer</rdfs:label>
     </owl:Class>
     
@@ -165,7 +264,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000017">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000016"/>
-        <rdfs:label xml:lang="en">Slacker</rdfs:label>
+        <cats:cat_0000182>Killer films that feature a central figure who typically terrorizes teenages and whose weapon of choice is a large knife or tool with a long blade.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">Slasher</rdfs:label>
     </owl:Class>
     
 
@@ -174,6 +274,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000018">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000016"/>
+        <cats:cat_0000182>Killer movies that feature deaths in relation to crime and criminal activity.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Crime</rdfs:label>
     </owl:Class>
     
@@ -183,6 +284,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000019">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000016"/>
+        <cats:cat_0000182>Killer movies whose central terrorizing figure or figures resides in deep rural settings, are unsocialized, and not typically close to any normal community developments.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Redneck</rdfs:label>
     </owl:Class>
     
@@ -192,6 +294,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000020">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000001"/>
+        <cats:cat_0000182>Films featuring a nonhuman entity that hunts and kills victims.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Monster</rdfs:label>
     </owl:Class>
     
@@ -201,6 +304,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000021">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000020"/>
+        <cats:cat_0000182>A monster film focused on the dead who come back to life and terrorize the living.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Zombies</rdfs:label>
     </owl:Class>
     
@@ -211,6 +315,7 @@
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000022">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000021"/>
         <owl:disjointWith rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000023"/>
+        <cats:cat_0000182>A Zombie Monster film whose feature villians come back to life by way of some supernatural power.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Undead</rdfs:label>
     </owl:Class>
     
@@ -220,6 +325,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000023">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000021"/>
+        <cats:cat_0000182>A Zombie Monster film whose feature villians come back to life by way of some agressively transmitable virus.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Virus</rdfs:label>
     </owl:Class>
     
@@ -229,6 +335,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000024">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000020"/>
+        <cats:cat_0000182>Monster films in which the main source of community fear is a vampire.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Vampire</rdfs:label>
     </owl:Class>
     
@@ -238,6 +345,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000025">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000020"/>
+        <cats:cat_0000182>Monster films focused around a human that becomes a werewolf and hunts other humans during a full moon.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Werewolf</rdfs:label>
     </owl:Class>
     
@@ -247,6 +355,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000026">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000020"/>
+        <cats:cat_0000182>Monster films featuring characters who are mythological and have origins in folklore.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Classic_Mythological</rdfs:label>
     </owl:Class>
     
@@ -256,6 +365,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000028">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000020"/>
+        <cats:cat_0000182>Monster films with animals that hunt and kill causing terror.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Animal_Nature</rdfs:label>
     </owl:Class>
     
@@ -265,6 +375,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000029">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000020"/>
+        <cats:cat_0000182>Monster films with fictional creatures that terrorize a community.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Creatures</rdfs:label>
     </owl:Class>
     
@@ -274,6 +385,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000030">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000020"/>
+        <cats:cat_0000182>Moster films featuring giant unnatural predators.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Giant_Monsters</rdfs:label>
     </owl:Class>
     
@@ -283,6 +395,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000031">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000020"/>
+        <cats:cat_0000182>Monster films that focus on extraterrestrial events or occurances surrounding alien encounters with humans.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Sci-fi_Aliens</rdfs:label>
     </owl:Class>
     
@@ -292,6 +405,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000032">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000001"/>
+        <cats:cat_0000182>Films that focus on individuals or events that have been influenced by supernatural or spiritual forces.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Paranormal</rdfs:label>
     </owl:Class>
     
@@ -301,6 +415,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000033">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000032"/>
+        <cats:cat_0000182>Paranormal films the revolve around occurances of hauntings, and ghost behaviour or influence, and ghost related deaths.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Ghosts_Spirits</rdfs:label>
     </owl:Class>
     
@@ -310,6 +425,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000034">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000032"/>
+        <cats:cat_0000182>Paranormal film which primarily focuses around a haunted building or home causing turmoil for those who occupy or visit the space.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Haunted_Houses</rdfs:label>
     </owl:Class>
     
@@ -319,6 +435,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000035">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000032"/>
+        <cats:cat_0000182>Paranormal films focusing on the spiritual or demonic possession of an individual, often a child.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Possession</rdfs:label>
     </owl:Class>
     
@@ -328,6 +445,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000036">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000032"/>
+        <cats:cat_0000182>Paranormal films that focus around the Devil and dark forces from Hell.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Devil_Demon_Hell</rdfs:label>
     </owl:Class>
     
@@ -337,6 +455,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000037">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000032"/>
+        <cats:cat_0000182>Paranormal films involving witches, covens, devil worship, or occult behaviour.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Witches_Occult</rdfs:label>
     </owl:Class>
     
@@ -346,6 +465,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000038">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000032"/>
+        <cats:cat_0000182>Paranormal films which center around an individual with inhuman powers, or the consequences and aftermath of encounters with such individuals.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Supernatural_Powers</rdfs:label>
     </owl:Class>
     
@@ -463,7 +583,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000063">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000003"/>
-        <rdfs:label xml:lang="en">Has_G_Rating</rdfs:label>
+        <cats:cat_0000182>All ages admitted.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">G</rdfs:label>
     </owl:Class>
     
 
@@ -472,7 +593,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000064">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000003"/>
-        <rdfs:label xml:lang="en">Has_PG_Rating</rdfs:label>
+        <cats:cat_0000182>Some material may not be suitable for children.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">PG</rdfs:label>
     </owl:Class>
     
 
@@ -481,7 +603,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000065">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000003"/>
-        <rdfs:label xml:lang="en">Has_PG13_Rating</rdfs:label>
+        <cats:cat_0000182>Some material may be inappropriate for children under 13.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">PG13</rdfs:label>
     </owl:Class>
     
 
@@ -490,7 +613,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000066">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000003"/>
-        <rdfs:label xml:lang="en">Has_R_Rating</rdfs:label>
+        <cats:cat_0000182>Under 17 requires accompanying parents or adult guardian.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">R</rdfs:label>
     </owl:Class>
     
 
@@ -499,7 +623,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000067">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000003"/>
-        <rdfs:label xml:lang="en">Has_NC17_Rating</rdfs:label>
+        <cats:cat_0000182>No one 17 and under admitted.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">NC17</rdfs:label>
     </owl:Class>
     
 
@@ -936,15 +1061,6 @@
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000117">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000030"/>
         <rdfs:label xml:lang="en">Cloverfield</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000118 -->
-
-    <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000118">
-        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000030"/>
-        <rdfs:label xml:lang="en">10_Cloverfield_Lane</rdfs:label>
     </owl:Class>
     
 
@@ -1627,14 +1743,6 @@
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000113"/>
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000114"/>
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000115"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000116"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000117"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000118"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
