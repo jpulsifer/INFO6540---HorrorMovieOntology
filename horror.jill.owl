@@ -137,6 +137,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000004">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000000"/>
+        <cats:cat_0000182>The decade in which a particular film was released.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Release_Decade</rdfs:label>
     </owl:Class>
     
@@ -146,6 +147,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000005">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000000"/>
+        <cats:cat_0000182>The country in which a particular film was released.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Release_Country</rdfs:label>
     </owl:Class>
     
@@ -155,6 +157,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000006">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000000"/>
+        <cats:cat_0000182>The color of the film at the time of its initial release.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Film_Color</rdfs:label>
     </owl:Class>
     
@@ -475,7 +478,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000051">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000004"/>
-        <rdfs:label xml:lang="en">Released_in_1900s</rdfs:label>
+        <cats:cat_0000182>Horror movies released between the years 1900 and 1909.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">1900s</rdfs:label>
     </owl:Class>
     
 
@@ -484,7 +488,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000052">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000004"/>
-        <rdfs:label xml:lang="en">Released_in_1910s</rdfs:label>
+        <cats:cat_0000182>Horror movies released between the years 1910 and 1919.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">1910s</rdfs:label>
     </owl:Class>
     
 
@@ -493,7 +498,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000053">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000004"/>
-        <rdfs:label xml:lang="en">Released_in_1920s</rdfs:label>
+        <cats:cat_0000182>Horror movies released between the years 1920 and 1929.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">1920s</rdfs:label>
     </owl:Class>
     
 
@@ -502,7 +508,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000054">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000004"/>
-        <rdfs:label xml:lang="en">Released_in_1930s</rdfs:label>
+        <cats:cat_0000182>Horror movies released between the years 1930 and 1939.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">1930s</rdfs:label>
     </owl:Class>
     
 
@@ -511,7 +518,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000055">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000004"/>
-        <rdfs:label xml:lang="en">Released_in_1940s</rdfs:label>
+        <cats:cat_0000182>Horror movies released between the years 1940 and 1949.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">1940s</rdfs:label>
     </owl:Class>
     
 
@@ -520,7 +528,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000056">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000004"/>
-        <rdfs:label xml:lang="en">Released_in_1950s</rdfs:label>
+        <cats:cat_0000182>Horror movies released between the years 1950 and 1959.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">1950s</rdfs:label>
     </owl:Class>
     
 
@@ -529,7 +538,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000057">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000004"/>
-        <rdfs:label xml:lang="en">Released_in_1960s</rdfs:label>
+        <cats:cat_0000182>Horror movies released between the years 1960 and 1969.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">1960s</rdfs:label>
     </owl:Class>
     
 
@@ -538,7 +548,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000058">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000004"/>
-        <rdfs:label xml:lang="en">Released_in_1970s</rdfs:label>
+        <cats:cat_0000182>Horror movies released between the years 1970 and 1979.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">1970s</rdfs:label>
     </owl:Class>
     
 
@@ -547,7 +558,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000059">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000004"/>
-        <rdfs:label xml:lang="en">Released_in_1980s</rdfs:label>
+        <cats:cat_0000182>Horror movies released between the years 1980 and 1989.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">1980s</rdfs:label>
     </owl:Class>
     
 
@@ -556,7 +568,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000060">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000004"/>
-        <rdfs:label xml:lang="en">Released_in_1990s</rdfs:label>
+        <cats:cat_0000182>Horror movies released between the years 1990 and 1999.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">1990s</rdfs:label>
     </owl:Class>
     
 
@@ -565,7 +578,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000061">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000004"/>
-        <rdfs:label xml:lang="en">Released_in_2000s</rdfs:label>
+        <cats:cat_0000182>Horror movies released between the years 2000 and 2009.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">2000s</rdfs:label>
     </owl:Class>
     
 
@@ -574,7 +588,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000062">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000004"/>
-        <rdfs:label xml:lang="en">Released_in_2010s</rdfs:label>
+        <cats:cat_0000182>Horror movies released between the years 2010 and 2019.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">2010s</rdfs:label>
     </owl:Class>
     
 
@@ -604,7 +619,7 @@
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000065">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000003"/>
         <cats:cat_0000182>Some material may be inappropriate for children under 13.</cats:cat_0000182>
-        <rdfs:label xml:lang="en">PG13</rdfs:label>
+        <rdfs:label xml:lang="en">PG-13</rdfs:label>
     </owl:Class>
     
 
@@ -624,7 +639,7 @@
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000067">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000003"/>
         <cats:cat_0000182>No one 17 and under admitted.</cats:cat_0000182>
-        <rdfs:label xml:lang="en">NC17</rdfs:label>
+        <rdfs:label xml:lang="en">NC-17</rdfs:label>
     </owl:Class>
     
 
