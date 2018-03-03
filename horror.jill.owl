@@ -633,6 +633,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000068">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000010"/>
+        <cats:cat_0000181>During a rescue mission into the Amazon rainforest, a professor stumbles across lost film shot by a missing documentary crew.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Cannibal_Holocaust</rdfs:label>
     </owl:Class>
     
@@ -642,6 +643,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000069">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000010"/>
+        <cats:cat_0000181>Three friends out to disprove cannibalism meet two men on the run who tortured and enslaved a cannibal tribe to find emeralds, and now the tribe is out for revenge.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Cannibal_Ferox</rdfs:label>
     </owl:Class>
     
@@ -651,6 +653,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000070">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000010"/>
+        <cats:cat_0000181>A group of student activists travels to the Amazon to save the rain forest and soon discover that they are not alone, and that no good deed goes unpunished.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Green_Inferno</rdfs:label>
     </owl:Class>
     
@@ -661,6 +664,7 @@
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000071">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000011"/>
         <owl:disjointWith rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000072"/>
+        <cats:cat_0000181>An aging porn star agrees to participate in an &quot;art film&quot; in order to make a clean break from the business, only to discover that he has been drafted into making a pedophilia and necrophilia themed snuff film.</cats:cat_0000181>
         <rdfs:label xml:lang="en">A_Serbian_Film</rdfs:label>
     </owl:Class>
     
@@ -670,7 +674,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000072">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000011"/>
-        <rdfs:label xml:lang="en">Nekromantic</rdfs:label>
+        <cats:cat_0000181>A street sweeper who cleans up after grisly accidents brings home a full corpse for him and his wife to enjoy sexually, but is dismayed to see that his wife prefers the corpse over him.</cats:cat_0000181>
+        <rdfs:label xml:lang="en">Nekromantik</rdfs:label>
     </owl:Class>
     
 
@@ -679,6 +684,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000073">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000009"/>
+        <cats:cat_0000181>An aspiring writer is repeatedly gang-raped, humiliated, and left for dead by four men whom she systematically hunts down to seek revenge.</cats:cat_0000181>
         <rdfs:label xml:lang="en">I_Spit_On_Your_Grave</rdfs:label>
     </owl:Class>
     
@@ -688,6 +694,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000074">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000009"/>
+        <cats:cat_0000181>In the future, the Japanese government captures a class of ninth- grade students and forces them to kill each other under the revolutionary &quot;Battle Royale&quot; act.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Battle_Royale</rdfs:label>
     </owl:Class>
     
@@ -697,6 +704,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000075">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000009"/>
+        <cats:cat_0000181>After a teenager has a terrifying vision of him and his friends dying in a plane crash, he prevents the accident only to have Death hunt them down, one by one.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Final_Destination</rdfs:label>
     </owl:Class>
     
@@ -706,6 +714,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000076">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000009"/>
+        <cats:cat_0000181>When a group of tourists in a New Orleans haunted swamp tour, find themselves stranded in the wilderness, their evening of fun and spooks turns into a horrific nightmare.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Hatchet</rdfs:label>
     </owl:Class>
     
@@ -715,6 +724,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000078">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000008"/>
+        <cats:cat_0000181>Three backpackers head to a Slovak city that promises to meet their hedonistic expectations, with no idea of the hell that awaits them.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Hostel</rdfs:label>
     </owl:Class>
     
@@ -724,6 +734,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000079">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000008"/>
+        <cats:cat_0000181>A young woman&apos;s quest for revenge against the people who kidnapped and tormented her as a child leads her and a friend, who is also a victim of child abuse, on a terrifying journey into a living hell of depravity.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Martyrs</rdfs:label>
     </owl:Class>
     
@@ -733,6 +744,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000080">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000008"/>
+        <cats:cat_0000181>Two strangers, who awaken in a room with no recollection of how they got there, soon discover they&apos;re pawns in a deadly game perpetrated by a notorious serial killer.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Saw</rdfs:label>
     </owl:Class>
     
@@ -743,6 +755,7 @@
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000081">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000013"/>
         <owl:disjointWith rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000082"/>
+        <cats:cat_0000181>Three skiers stranded on a chairlift are forced to make life-or-death choices, which prove more perilous than staying put and freezing to death.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Frozen</rdfs:label>
     </owl:Class>
     
@@ -752,6 +765,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000082">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000013"/>
+        <cats:cat_0000181>Paul is a U.S. truck driver working in Iraq. After an attack by a group of Iraqis he wakes to find he is buried alive inside a coffin. With only a lighter and a cell phone it&apos;s a race against time to escape this claustrophobic death trap.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Buried</rdfs:label>
     </owl:Class>
     
@@ -761,6 +775,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000083">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000014"/>
+        <cats:cat_0000181>A Phoenix secretary embezzles $40,000 from her employer&apos;s client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Psycho</rdfs:label>
     </owl:Class>
     
@@ -770,6 +785,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000084">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000014"/>
+        <cats:cat_0000181>A man confesses to an FBI agent his family&apos;s story of how his religious fanatic father&apos;s visions led to a series of murders to destroy supposed &quot;demons.&quot;</cats:cat_0000181>
         <rdfs:label xml:lang="en">Frailty</rdfs:label>
     </owl:Class>
     
@@ -779,6 +795,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000085">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000014"/>
+        <cats:cat_0000181>A committed dancer wins the lead role in a production of Tchaikovsky&apos;s &quot; Swan Lake&quot; only to find herself struggling to maintain her sanity.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Black_Swan</rdfs:label>
     </owl:Class>
     
@@ -788,6 +805,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000086">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000014"/>
+        <cats:cat_0000181>Mourning his dead child, a haunted Vietnam War veteran attempts to uncover his past while suffering from a severe case of dissociation. To do so, he must decipher reality and life from his own dreams, delusions, and perceptions of death.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Jacobs_Ladder</rdfs:label>
     </owl:Class>
     
@@ -797,6 +815,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000087">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000014"/>
+        <cats:cat_0000181>An institutionalized young woman becomes terrorized by a ghost.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Ward</rdfs:label>
     </owl:Class>
     
@@ -806,6 +825,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000088">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000015"/>
+        <cats:cat_0000181>A young couple staying in an isolated vacation home are terrorized by three unknown assailants.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Strangers</rdfs:label>
     </owl:Class>
     
@@ -815,6 +835,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000089">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000015"/>
+        <cats:cat_0000181>When the Davison family comes under attack during their wedding anniversary getaway, the gang of mysterious killers soon learns that one of the victims harbors a secret talent for fighting back.</cats:cat_0000181>
         <rdfs:label xml:lang="en">You&apos;re_Next</rdfs:label>
     </owl:Class>
     
@@ -824,6 +845,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000090">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000015"/>
+        <cats:cat_0000181>A deaf writer who retreated into the woods to live a solitary life must fight for her life in silence when a masked killer appears at her window.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Hush</rdfs:label>
     </owl:Class>
     
@@ -833,7 +855,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000091">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000015"/>
-        <rdfs:label xml:lang="en">Don&apos;t_Breath</rdfs:label>
+        <cats:cat_0000181>Hoping to walk away with a massive fortune, a trio of thieves break into the house of a blind man who isn&apos;t as helpless as he seems.</cats:cat_0000181>
+        <rdfs:label xml:lang="en">Don&apos;t_Breathe</rdfs:label>
     </owl:Class>
     
 
@@ -842,6 +865,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000092">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000017"/>
+        <cats:cat_0000181>A group of camp counselors are stalked and murdered by an unknown assailant while trying to reopen a summer camp which, years before, was the site of a child&apos;s drowning.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Friday_the_13th</rdfs:label>
     </owl:Class>
     
@@ -851,6 +875,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000093">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000017"/>
+        <cats:cat_0000181>Fifteen years after murdering his sister on Halloween night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield to kill again.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Halloween</rdfs:label>
     </owl:Class>
     
@@ -860,6 +885,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000094">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000017"/>
+        <cats:cat_0000181>The spectre of a dead child rapist haunts the children of the parents who murdered him, stalking and killing them in their dreams.</cats:cat_0000181>
         <rdfs:label xml:lang="en">A_Nightmare_on_Elm_Street</rdfs:label>
     </owl:Class>
     
@@ -869,6 +895,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000095">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000017"/>
+        <cats:cat_0000181>A year after the murder of her mother, a teenage girl is terrorized by a new killer, who targets the girl and her friends by using horror films as part of a deadly game.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Scream</rdfs:label>
     </owl:Class>
     
@@ -878,6 +905,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000096">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000017"/>
+        <cats:cat_0000181>After a nasty accident, four friends begin to drift apart. One year later Julie James gets a anonymous message and then a slicker wearing, hook wielding killer begins to rip apart her life.</cats:cat_0000181>
         <rdfs:label xml:lang="en">I_Know_What_You_Did_Last_Summer</rdfs:label>
     </owl:Class>
     
@@ -887,6 +915,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000097">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000019"/>
+        <cats:cat_0000181>Two siblings and three of their friends en route to visit their grandfather&apos;s grave in Texas end up falling victim to a family of cannibalistic psychopaths.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Texas_Chainsaw_Massacre</rdfs:label>
     </owl:Class>
     
@@ -896,6 +925,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000098">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000019"/>
+        <cats:cat_0000181>A suburban American family is being stalked by a group of psychotic people who live in the desert, far away from civilization.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Hills_Have_Eyes</rdfs:label>
     </owl:Class>
     
@@ -905,6 +935,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000099">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000019"/>
+        <cats:cat_0000181>Affable hillbillies Tucker and Dale are on vacation at their dilapidated mountain cabin when they are mistaken for murderers by a group of preppy college students.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Tucker_and_Dale_Vs_Evil</rdfs:label>
     </owl:Class>
     
@@ -914,6 +945,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000100">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000019"/>
+        <cats:cat_0000181>Intent on seeing the Cahulawassee River before it&apos;s turned into one huge lake, outdoor fanatic Lewis Medlock takes his friends on a river-rafting trip they&apos;ll never forget into the dangerous American back-country.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Deliverance</rdfs:label>
     </owl:Class>
     
@@ -924,6 +956,7 @@
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000101">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000018"/>
         <owl:disjointWith rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000102"/>
+        <cats:cat_0000181>A runaway truck containing the corpse of a slain gang leader rolls into a California nightclub owned by Johnny Cain, a hard bitten former free-lance adventurer.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Girl_Who_Knew_Too_Much</rdfs:label>
     </owl:Class>
     
@@ -933,6 +966,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000102">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000018"/>
+        <cats:cat_0000181>After witnessing the murder of a famous psychic, a musician teams up with a feisty reporter to find the killer while evading attempts on their lives by the unseen assailant bent on keeping a dark secret buried.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Deep_Red</rdfs:label>
     </owl:Class>
     
@@ -942,6 +976,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000104">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000028"/>
+        <cats:cat_0000181>A local sheriff, a marine biologist and an old seafarer team up to hunt down a great white shark wrecking havoc in a beach resort.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Jaws</rdfs:label>
     </owl:Class>
     
@@ -951,6 +986,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000105">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000028"/>
+        <cats:cat_0000181>A wealthy San Francisco socialite pursues a potential boyfriend to a small Northern California town that slowly takes a turn for the bizarre when birds of all kinds suddenly begin to attack people.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Birds</rdfs:label>
     </owl:Class>
     
@@ -960,6 +996,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000106">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000028"/>
+        <cats:cat_0000181>A mere 200 yards from shore, surfer Nancy is attacked by a great white shark, with her short journey to safety becoming the ultimate contest of wills.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Shallows</rdfs:label>
     </owl:Class>
     
@@ -969,6 +1006,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000107">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000028"/>
+        <cats:cat_0000181>Three people attempt to stop a gigantic crocodile, who is terrorizing residents in Black Lake, Maine.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Lake_Placid</rdfs:label>
     </owl:Class>
     
@@ -978,6 +1016,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000108">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000028"/>
+        <cats:cat_0000181>Cujo, a friendly St. Bernard, contracts rabies and conducts a reign of terror on a small American town.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Cujo</rdfs:label>
     </owl:Class>
     
@@ -987,6 +1026,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000109">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000028"/>
+        <cats:cat_0000181>Based on the true story of two scuba divers accidentally stranded in shark infested waters after their tour boat has left.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Open_Water</rdfs:label>
     </owl:Class>
     
@@ -996,6 +1036,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000110">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000013"/>
+        <cats:cat_0000181>A species of South American killer spider hitches a lift to the U.S. in a coffin and starts to breed and kill.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Arachnophobia</rdfs:label>
     </owl:Class>
     
@@ -1006,6 +1047,7 @@
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000111">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000026"/>
         <owl:disjointWith rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000112"/>
+        <cats:cat_0000181>An obsessed scientist assembles a living being from parts of exhumed corpses.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Frankenstein</rdfs:label>
     </owl:Class>
     
@@ -1015,6 +1057,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000112">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000026"/>
+        <cats:cat_0000181>An evil, sadistic Leprechaun goes on a killing rampage in search of his beloved pot of gold.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Leprechaun</rdfs:label>
     </owl:Class>
     
@@ -1024,6 +1067,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000113">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000029"/>
+        <cats:cat_0000181>A boy inadvertently breaks three important rules concerning his new pet and unleashes a horde of malevolently mischievous monsters on a small town.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Gremlins</rdfs:label>
     </owl:Class>
     
@@ -1033,6 +1077,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000114">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000029"/>
+        <cats:cat_0000181>A group of small, furry creatures makes lunch out of the locals in a farming town.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Critters</rdfs:label>
     </owl:Class>
     
@@ -1042,6 +1087,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000115">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000029"/>
+        <cats:cat_0000181>Trapped in an isolated gas station by a voracious Splinter parasite that transforms its still-living victims into deadly hosts, a young couple and an escaped convict must find a way to work together to survive this primal terror.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Splinter</rdfs:label>
     </owl:Class>
     
@@ -1051,6 +1097,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000116">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000030"/>
+        <cats:cat_0000181>American nuclear weapons testing results in the creation of a seemingly unstoppable, dinosaur-like beast.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Godzilla</rdfs:label>
     </owl:Class>
     
@@ -1060,6 +1107,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000117">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000030"/>
+        <cats:cat_0000181>A group of friends venture deep into the streets of New York on a rescue mission during a rampaging monster attack.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Cloverfield</rdfs:label>
     </owl:Class>
     
@@ -1069,6 +1117,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000119">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000031"/>
+        <cats:cat_0000181>A crew in Antarctica finds a neighboring camp destroyed and its crew dead. Whatever killed them is nowhere to be found, unless it&apos;s hidden in plain sight.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Thing</rdfs:label>
     </owl:Class>
     
@@ -1078,6 +1127,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000120">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000031"/>
+        <cats:cat_0000181>After a space merchant vessel perceives an unknown transmission as a distress call, its landing on the source moon finds one of the crew attacked by a mysterious lifeform, and they soon realize that its life cycle has merely begun.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Alien</rdfs:label>
     </owl:Class>
     
@@ -1087,6 +1137,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000121">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000031"/>
+        <cats:cat_0000181>A family living on a farm finds mysterious crop circles in their fields which suggests something more frightening to come.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Signs</rdfs:label>
     </owl:Class>
     
@@ -1096,6 +1147,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000122">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000031"/>
+        <cats:cat_0000181>A thriller involving an ongoing unsolved mystery in Alaska, where one town has seen an extraordinary number of unexplained disappearances during the past 40 years and there are accusations of a federal cover up.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_4th_Kind</rdfs:label>
     </owl:Class>
     
@@ -1105,6 +1157,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000123">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000031"/>
+        <cats:cat_0000181>An extraterrestrial race forced to live in slum-like conditions on Earth suddenly finds a kindred spirit in a government agent who is exposed to their biotechnology.</cats:cat_0000181>
         <rdfs:label xml:lang="en">District_9</rdfs:label>
     </owl:Class>
     
@@ -1114,6 +1167,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000124">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000031"/>
+        <cats:cat_0000181>A civilian diving team is enlisted to search for a lost nuclear submarine and face danger while encountering an alien aquatic species.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Abyss</rdfs:label>
     </owl:Class>
     
@@ -1123,6 +1177,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000125">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000031"/>
+        <cats:cat_0000181>In Moscow, five young people lead the charge against an alien race who have attacked Earth via our power supply.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Darkest_Hour</rdfs:label>
     </owl:Class>
     
@@ -1132,6 +1187,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000126">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000024"/>
+        <cats:cat_0000181>The centuries old vampire Count Dracula comes to England to seduce his barrister Jonathan Harker&apos;s fiancée Mina Murray and inflict havoc in the foreign land.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Dracula</rdfs:label>
     </owl:Class>
     
@@ -1141,6 +1197,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000127">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000024"/>
+        <cats:cat_0000181>When a teenager learns that his next door neighbour is a vampire, no one will believe him.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Fright_Night</rdfs:label>
     </owl:Class>
     
@@ -1150,6 +1207,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000128">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000024"/>
+        <cats:cat_0000181>Vampire Count Orlok expresses interest in a new residence and real estate agent Hutter&apos;s wife.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Nosferatu</rdfs:label>
     </owl:Class>
     
@@ -1159,6 +1217,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000129">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000024"/>
+        <cats:cat_0000181>After an Alaskan town is plunged into darkness for a month, it is attacked by a bloodthirsty gang of vampires.</cats:cat_0000181>
         <rdfs:label xml:lang="en">30_Days_of_Night</rdfs:label>
     </owl:Class>
     
@@ -1168,7 +1227,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000130">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000024"/>
-        <rdfs:label xml:lang="en">Let_Me_In</rdfs:label>
+        <cats:cat_0000181>Oskar, an overlooked and bullied boy, finds love and revenge through Eli, a beautiful but peculiar girl.</cats:cat_0000181>
+        <rdfs:label xml:lang="en">Let_the_Right_One_In</rdfs:label>
     </owl:Class>
     
 
@@ -1177,6 +1237,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000131">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000024"/>
+        <cats:cat_0000181>When a disease turns all of humanity into the living dead, the last man on earth becomes a reluctant vampire hunter.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Last_Man_On_Earth</rdfs:label>
     </owl:Class>
     
@@ -1187,6 +1248,7 @@
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000132">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000025"/>
         <owl:disjointWith rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000133"/>
+        <cats:cat_0000181>A practical man returns to his homeland, is attacked by a creature of folklore, and infected with a horrific disease his disciplined mind tells him can not possibly exist.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Wolfman</rdfs:label>
     </owl:Class>
     
@@ -1196,6 +1258,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000133">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000025"/>
+        <cats:cat_0000181>Two American college students on a walking tour of Britain are attacked by a werewolf that none of the locals will admit exists.</cats:cat_0000181>
         <rdfs:label xml:lang="en">An_American_Werewolf_in_London</rdfs:label>
     </owl:Class>
     
@@ -1205,6 +1268,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000134">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000022"/>
+        <cats:cat_0000181>There is panic throughout the nation as the dead suddenly come back to life. The film follows a group of characters who barricade themselves in an old farmhouse in an attempt to remain safe from these bloodthirsty, flesh-eating monsters.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Night_of_the_Living_Dead</rdfs:label>
     </owl:Class>
     
@@ -1214,6 +1278,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000135">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000022"/>
+        <cats:cat_0000181>Strangers searching for a young woman&apos;s missing father arrive at a tropical island where a doctor desperately searches for the cause and cure of a recent epidemic of the undead.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Zombi_2</rdfs:label>
     </owl:Class>
     
@@ -1223,6 +1288,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000136">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000022"/>
+        <cats:cat_0000181>Following an ever-growing epidemic of zombies that have risen from the dead, two Philadelphia S.W.A.T. team members, a traffic reporter, and his television executive girlfriend seek refuge in a secluded shopping mall.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Dawn_of_the_Dead</rdfs:label>
     </owl:Class>
     
@@ -1232,6 +1298,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000137">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000023"/>
+        <cats:cat_0000181>Four weeks after a mysterious, incurable virus spreads throughout the UK, a handful of survivors try to find sanctuary.</cats:cat_0000181>
         <rdfs:label xml:lang="en">28_Days_Later</rdfs:label>
     </owl:Class>
     
@@ -1241,6 +1308,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000138">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000023"/>
+        <cats:cat_0000181>A special military unit fights a powerful, out-of-control supercomputer and hundreds of scientists who have mutated into flesh-eating creatures after a laboratory accident.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Resident_Evil</rdfs:label>
     </owl:Class>
     
@@ -1250,17 +1318,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000139">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000023"/>
+        <cats:cat_0000181>A television reporter and her cameraman are trapped inside a building quarantined by the CDC, after the outbreak of a mysterious virus which turns humans into bloodthirsty killers.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Quarantine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000140 -->
-
-    <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000140">
-        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000033"/>
-        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000034"/>
-        <rdfs:label xml:lang="en">Poltergeist</rdfs:label>
     </owl:Class>
     
 
@@ -1269,6 +1328,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000141">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000033"/>
+        <cats:cat_0000181>An American nurse living and working in Tokyo is exposed to a mysterious supernatural curse, one that locks a person in a powerful rage before claiming their life and spreading to another victim.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Grudge</rdfs:label>
     </owl:Class>
     
@@ -1278,6 +1338,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000142">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000033"/>
+        <cats:cat_0000181>A woman who lives in a darkened old house with her two photosensitive children becomes convinced that her family home is haunted.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Others</rdfs:label>
     </owl:Class>
     
@@ -1287,6 +1348,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000143">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000033"/>
+        <cats:cat_0000181>After moving into a suburban home, a couple becomes increasingly disturbed by a nightly demonic presence.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Paranormal_Activity</rdfs:label>
     </owl:Class>
     
@@ -1296,6 +1358,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000144">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000033"/>
+        <cats:cat_0000181>A family looks to prevent evil spirits from trapping their comatose child in a realm called The Further.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Insidious</rdfs:label>
     </owl:Class>
     
@@ -1305,6 +1368,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000145">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000033"/>
+        <cats:cat_0000181>A boy who communicates with spirits seeks the help of a disheartened child psychologist.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Sixth_Sense</rdfs:label>
     </owl:Class>
     
@@ -1314,6 +1378,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000146">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000033"/>
+        <cats:cat_0000181>A woman brings her family back to her childhood home, which used to be an orphanage for handicapped children. Before long, her son starts to communicate with an invisible new friend.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Orphanage</rdfs:label>
     </owl:Class>
     
@@ -1323,6 +1388,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000147">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000034"/>
+        <cats:cat_0000181>A scientist doing research on the paranormal invites two women to a haunted mansion. One of the participants soon starts losing her mind.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Haunting</rdfs:label>
     </owl:Class>
     
@@ -1332,6 +1398,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000148">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000034"/>
+        <cats:cat_0000181>Newlyweds move into a large house where a mass murder was committed, and experience strange manifestations which drive them away.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Amityville_Horror</rdfs:label>
     </owl:Class>
     
@@ -1341,6 +1408,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000149">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000034"/>
+        <cats:cat_0000181>During the final days at the Yankee Pedlar Inn, two employees determined to reveal the hotel&apos;s haunted past begin to experience disturbing events as old guests check in for a stay.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Innkeepers</rdfs:label>
     </owl:Class>
     
@@ -1350,6 +1418,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000150">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000034"/>
+        <cats:cat_0000181>A man staying at a secluded historical mansion finds himself being haunted by the presence of a spectre.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Changeling</rdfs:label>
     </owl:Class>
     
@@ -1359,6 +1428,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000151">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000035"/>
+        <cats:cat_0000181>When a teenage girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her daughter.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Exorcist</rdfs:label>
     </owl:Class>
     
@@ -1368,6 +1438,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000152">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000035"/>
+        <cats:cat_0000181>An American seminary student travels to Italy to take an exorcism course.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Rite</rdfs:label>
     </owl:Class>
     
@@ -1377,6 +1448,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000153">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000035"/>
+        <cats:cat_0000181>A troubled evangelical minister agrees to let his last exorcism be filmed by a documentary crew.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Last_Exorcism</rdfs:label>
     </owl:Class>
     
@@ -1386,16 +1458,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000154">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000035"/>
+        <cats:cat_0000181>A lawyer takes on a negligent homicide case involving a priest who performed an exorcism on a young girl.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Exorcism_of_Emily_Rose</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000155 -->
-
-    <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000155">
-        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000035"/>
-        <rdfs:label xml:lang="en">The_Exoricst</rdfs:label>
     </owl:Class>
     
 
@@ -1404,6 +1468,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000156">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000035"/>
+        <cats:cat_0000181>In Italy, a woman becomes involved in a series of unauthorized exorcisms during her mission to discover what happened to her mother, who allegedly murdered three people during her own exorcism.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Devil_Inside</rdfs:label>
     </owl:Class>
     
@@ -1413,6 +1478,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000157">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000035"/>
+        <cats:cat_0000181>Random people are terrorized by a malevolent man who brings their worst fears to life.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Demon</rdfs:label>
     </owl:Class>
     
@@ -1422,16 +1488,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000158">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000036"/>
+        <cats:cat_0000181>Five friends travel to a cabin in the woods, where they unknowingly release flesh-possessing demons.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Evil_Dead</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000159 -->
-
-    <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000159">
-        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000036"/>
-        <rdfs:label xml:lang="en">The_Beyond</rdfs:label>
     </owl:Class>
     
 
@@ -1440,6 +1498,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000160">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000036"/>
+        <cats:cat_0000181>A loan officer who evicts an old woman from her home finds herself the recipient of a supernatural curse. Desperate, she turns to a seer to try and save her soul, while evil forces work to push her to a breaking point.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Drag_me_to_Hell</rdfs:label>
     </owl:Class>
     
@@ -1449,6 +1508,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000161">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000036"/>
+        <cats:cat_0000181>A group of random people are invited to a screening of a mysterious movie, only to find themselves trapped in the theater with ravenous demons.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Demons</rdfs:label>
     </owl:Class>
     
@@ -1458,6 +1518,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000162">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000036"/>
+        <cats:cat_0000181>In 1983, financially struggling college student Samantha Hughes takes a strange babysitting job that coincides with a full lunar eclipse. She slowly realizes her clients harbor a terrifying secret, putting her life in mortal danger.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_House_of_the_Devil</rdfs:label>
     </owl:Class>
     
@@ -1467,6 +1528,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000163">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000037"/>
+        <cats:cat_0000181>Black Sunday is the powerful story of a Black September terrorist group attempting to blow up a Goodyear blimp hovering over the Super Bowl stadium with 80,000 people and the president of the United States in attendance.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Black_Sunday</rdfs:label>
     </owl:Class>
     
@@ -1476,6 +1538,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000164">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000037"/>
+        <cats:cat_0000181>A newcomer to a prestigious german ballet academy comes to realize that the school is a front for something sinister amidst a series of grisly murders.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Suspiria</rdfs:label>
     </owl:Class>
     
@@ -1485,6 +1548,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000165">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000037"/>
+        <cats:cat_0000181>In this exquisitely made and terrifying new horror film, the age-old concepts of witchcraft, black magic and possession are innovatively brought together to tell the intimate and riveting story of one family&apos;s frightful unraveling in the New England wilderness circa 1630.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Witch</rdfs:label>
     </owl:Class>
     
@@ -1494,6 +1558,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000166">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000037"/>
+        <cats:cat_0000181>Three film students vanish after traveling into a Maryland forest to film a documentary on the local Blair Witch legend, leaving only their footage behind.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Blair_Witch_Project</rdfs:label>
     </owl:Class>
     
@@ -1503,6 +1568,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000167">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000037"/>
+        <cats:cat_0000181>A newcomer to a Catholic prep high school falls in with a trio of outcast teenage girls who practice witchcraft and they all soon conjure up various spells and curses against those who even slightly anger them.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Craft</rdfs:label>
     </owl:Class>
     
@@ -1512,6 +1578,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000168">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000037"/>
+        <cats:cat_0000181>A young couple moves in to an apartment only to be surrounded by peculiar neighbors and occurrences. When the wife becomes mysteriously pregnant, paranoia over the safety of her unborn child begins to control her life.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Rosemary&apos;s_Baby</rdfs:label>
     </owl:Class>
     
@@ -1521,6 +1588,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000169">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000038"/>
+        <cats:cat_0000181>Carrie White, a shy, friendless teenage girl who is sheltered by her domineering, religious mother, unleashes her telekinetic powers after being humiliated by her classmates at her senior prom.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Carrie</rdfs:label>
     </owl:Class>
     
@@ -1530,6 +1598,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000170">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000038"/>
+        <cats:cat_0000181>A scientist sends a man with extraordinary psychic powers to hunt others like him.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Scanners</rdfs:label>
     </owl:Class>
     
@@ -1539,6 +1608,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000171">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000038"/>
+        <cats:cat_0000181>A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath that only two teenagers and a group of psychics can stop.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Akira</rdfs:label>
     </owl:Class>
     
@@ -1548,6 +1618,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000172">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000038"/>
+        <cats:cat_0000181>A family heads to an isolated hotel for the winter where an evil spiritual presence influences the father into violence, while his psychic son sees horrific forebodings from the past and of the future.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Shining</rdfs:label>
     </owl:Class>
     
@@ -1557,6 +1628,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000173">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000038"/>
+        <cats:cat_0000181>An off the charts genius who is home schooled and shunned after his last relative dies shows the unconscious residents of his town about connection awareness and the generosity of the spirit.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Powder</rdfs:label>
     </owl:Class>
     
@@ -1566,6 +1638,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000174">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000038"/>
+        <cats:cat_0000181>One by one members of a special project team are being killed by telekinesis - the ability to move things with the power of the mind alone. The race is to determine which of the remaining team members is the murderer and how to stop them.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Power</rdfs:label>
     </owl:Class>
     
@@ -1575,6 +1648,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000175">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000038"/>
+        <cats:cat_0000181>An obese attorney is cursed by a gypsy to rapidly and uncontrollably lose weight.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Thinner</rdfs:label>
     </owl:Class>
     
@@ -1782,50 +1856,6 @@
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000137"/>
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000138"/>
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000139"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000140"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000141"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000142"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000143"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000144"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000145"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000146"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000140"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000147"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000148"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000149"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000150"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000151"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000152"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000153"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000154"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000155"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000156"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000157"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000158"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000159"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000160"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000161"/>
-            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000162"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
