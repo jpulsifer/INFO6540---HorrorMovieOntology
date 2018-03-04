@@ -4397,6 +4397,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000198">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000006"/>
+        <cats:cat_0000182>Films initially released in color.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Color</rdfs:label>
     </owl:Class>
     
@@ -4406,6 +4407,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000199">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000006"/>
+        <cats:cat_0000182>Films initially released in technicolor.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Technicolor</rdfs:label>
     </owl:Class>
     
@@ -4415,6 +4417,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000200">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000006"/>
+        <cats:cat_0000182>Films initially released in black and white.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Black_and_White</rdfs:label>
     </owl:Class>
     
