@@ -1824,6 +1824,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000111">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000197"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000112"/>
         <cats:cat_0000181>An obsessed scientist assembles a living being from parts of exhumed corpses.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Frankenstein</rdfs:label>
@@ -1835,6 +1859,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000112">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>An evil, sadistic Leprechaun goes on a killing rampage in search of his beloved pot of gold.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Leprechaun</rdfs:label>
     </owl:Class>
@@ -1845,6 +1893,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000113">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>A boy inadvertently breaks three important rules concerning his new pet and unleashes a horde of malevolently mischievous monsters on a small town.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Gremlins</rdfs:label>
     </owl:Class>
@@ -1855,6 +1927,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000114">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>A group of small, furry creatures makes lunch out of the locals in a farming town.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Critters</rdfs:label>
     </owl:Class>
@@ -1865,6 +1961,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000115">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000209"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>Trapped in an isolated gas station by a voracious Splinter parasite that transforms its still-living victims into deadly hosts, a young couple and an escaped convict must find a way to work together to survive this primal terror.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Splinter</rdfs:label>
     </owl:Class>
@@ -1875,6 +1995,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000116">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000197"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>American nuclear weapons testing results in the creation of a seemingly unstoppable, dinosaur-like beast.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Godzilla</rdfs:label>
     </owl:Class>
@@ -1885,6 +2029,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000117">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>A group of friends venture deep into the streets of New York on a rescue mission during a rampaging monster attack.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Cloverfield</rdfs:label>
     </owl:Class>
@@ -1895,6 +2063,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000119">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000031"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>A crew in Antarctica finds a neighboring camp destroyed and its crew dead. Whatever killed them is nowhere to be found, unless it&apos;s hidden in plain sight.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Thing</rdfs:label>
     </owl:Class>
@@ -1905,6 +2097,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000120">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000031"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>After a space merchant vessel perceives an unknown transmission as a distress call, its landing on the source moon finds one of the crew attacked by a mysterious lifeform, and they soon realize that its life cycle has merely begun.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Alien</rdfs:label>
     </owl:Class>
@@ -1915,6 +2131,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000121">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000031"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>A family living on a farm finds mysterious crop circles in their fields which suggests something more frightening to come.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Signs</rdfs:label>
     </owl:Class>
@@ -1925,6 +2165,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000122">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000031"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>A thriller involving an ongoing unsolved mystery in Alaska, where one town has seen an extraordinary number of unexplained disappearances during the past 40 years and there are accusations of a federal cover up.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_4th_Kind</rdfs:label>
     </owl:Class>
@@ -1935,6 +2199,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000123">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000031"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>An extraterrestrial race forced to live in slum-like conditions on Earth suddenly finds a kindred spirit in a government agent who is exposed to their biotechnology.</cats:cat_0000181>
         <rdfs:label xml:lang="en">District_9</rdfs:label>
     </owl:Class>
@@ -1945,6 +2233,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000124">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000031"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>A civilian diving team is enlisted to search for a lost nuclear submarine and face danger while encountering an alien aquatic species.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Abyss</rdfs:label>
     </owl:Class>
@@ -1955,6 +2267,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000125">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000031"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>In Moscow, five young people lead the charge against an alien race who have attacked Earth via our power supply.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Darkest_Hour</rdfs:label>
     </owl:Class>
@@ -1965,6 +2301,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000126">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000024"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>The centuries old vampire Count Dracula comes to England to seduce his barrister Jonathan Harker&apos;s fiancée Mina Murray and inflict havoc in the foreign land.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Dracula</rdfs:label>
     </owl:Class>
@@ -1975,6 +2335,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000127">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000024"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>When a teenager learns that his next door neighbour is a vampire, no one will believe him.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Fright_Night</rdfs:label>
     </owl:Class>
@@ -1985,6 +2369,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000128">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000024"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000197"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>Vampire Count Orlok expresses interest in a new residence and real estate agent Hutter&apos;s wife.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Nosferatu</rdfs:label>
     </owl:Class>
@@ -1995,6 +2403,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000129">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000024"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>After an Alaskan town is plunged into darkness for a month, it is attacked by a bloodthirsty gang of vampires.</cats:cat_0000181>
         <rdfs:label xml:lang="en">30_Days_of_Night</rdfs:label>
     </owl:Class>
@@ -2005,6 +2437,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000130">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000024"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>Oskar, an overlooked and bullied boy, finds love and revenge through Eli, a beautiful but peculiar girl.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Let_the_Right_One_In</rdfs:label>
     </owl:Class>
@@ -2015,6 +2471,36 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000131">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000024"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:someValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:someValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000197"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>When a disease turns all of humanity into the living dead, the last man on earth becomes a reluctant vampire hunter.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Last_Man_On_Earth</rdfs:label>
     </owl:Class>
@@ -2025,6 +2511,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000132">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000025"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000133"/>
         <cats:cat_0000181>A practical man returns to his homeland, is attacked by a creature of folklore, and infected with a horrific disease his disciplined mind tells him can not possibly exist.</cats:cat_0000181>
         <rdfs:label xml:lang="en">The_Wolfman</rdfs:label>
@@ -2036,6 +2546,36 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000133">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000025"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:someValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:someValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000213"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>Two American college students on a walking tour of Britain are attacked by a werewolf that none of the locals will admit exists.</cats:cat_0000181>
         <rdfs:label xml:lang="en">An_American_Werewolf_in_London</rdfs:label>
     </owl:Class>
@@ -2046,6 +2586,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000134">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000022"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000197"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>There is panic throughout the nation as the dead suddenly come back to life. The film follows a group of characters who barricade themselves in an old farmhouse in an attempt to remain safe from these bloodthirsty, flesh-eating monsters.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Night_of_the_Living_Dead</rdfs:label>
     </owl:Class>
@@ -2056,8 +2620,32 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000135">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000022"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>Strangers searching for a young woman&apos;s missing father arrive at a tropical island where a doctor desperately searches for the cause and cure of a recent epidemic of the undead.</cats:cat_0000181>
-        <rdfs:label xml:lang="en">Zombi_2</rdfs:label>
+        <rdfs:label xml:lang="en">Zombie</rdfs:label>
     </owl:Class>
     
 
@@ -2066,6 +2654,36 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000136">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000022"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:someValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:someValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000197"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>Following an ever-growing epidemic of zombies that have risen from the dead, two Philadelphia S.W.A.T. team members, a traffic reporter, and his television executive girlfriend seek refuge in a secluded shopping mall.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Dawn_of_the_Dead</rdfs:label>
     </owl:Class>
@@ -2076,6 +2694,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000137">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000213"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>Four weeks after a mysterious, incurable virus spreads throughout the UK, a handful of survivors try to find sanctuary.</cats:cat_0000181>
         <rdfs:label xml:lang="en">28_Days_Later</rdfs:label>
     </owl:Class>
@@ -2086,6 +2728,54 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000138">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:someValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000195"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:someValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:someValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:someValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000206"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:someValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000213"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>A special military unit fights a powerful, out-of-control supercomputer and hundreds of scientists who have mutated into flesh-eating creatures after a laboratory accident.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Resident_Evil</rdfs:label>
     </owl:Class>
@@ -2096,6 +2786,30 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000139">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <cats:cat_0000181>A television reporter and her cameraman are trapped inside a building quarantined by the CDC, after the outbreak of a mysterious virus which turns humans into bloodthirsty killers.</cats:cat_0000181>
         <rdfs:label xml:lang="en">Quarantine</rdfs:label>
     </owl:Class>
@@ -2567,6 +3281,75 @@
     
 
 
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000209 -->
+
+    <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000209">
+        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
+        <rdfs:label xml:lang="en">Turkey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000210 -->
+
+    <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000210">
+        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000197"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">King_Kong</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000211 -->
+
+    <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000211">
+        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
+        <rdfs:label xml:lang="en">Sweden</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000212 -->
+
+    <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000212">
+        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000013"/>
+        <rdfs:label xml:lang="en">It</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000213 -->
+
+    <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000213">
+        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
+        <rdfs:label xml:lang="en">United_Kingdom</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2689,6 +3472,15 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000081"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000082"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000110"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000212"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000083"/>
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000084"/>
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000085"/>
@@ -2741,6 +3533,14 @@
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000113"/>
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000114"/>
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000115"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000116"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000117"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000210"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -2902,6 +3702,60 @@
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000206"/>
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000207"/>
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000208"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000194"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000195"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000201"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000202"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000203"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000204"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000205"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000206"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000207"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000208"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000209"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000194"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000195"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000201"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000202"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000203"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000204"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000205"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000206"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000207"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000208"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000209"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000211"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000194"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000195"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000201"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000202"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000203"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000204"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000205"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000206"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000207"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000208"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000209"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000211"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000213"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
