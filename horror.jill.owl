@@ -4718,6 +4718,86 @@
     
 
 
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000227 -->
+
+    <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000227">
+        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000213"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <cats:cat_0000181>An unfaithful wife encounters her dead lover; the demonic cenobites are pursuing him after he escaped their sadomasochistic underworld.</cats:cat_0000181>
+        <rdfs:label xml:lang="en">Hellraiser</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000228 -->
+
+    <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000228">
+        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:someValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000195"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:someValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:someValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000213"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <cats:cat_0000181>A brilliant but eccentric scientist begins to transform into a giant man/fly hybrid after one of his experiments goes horribly wrong.</cats:cat_0000181>
+        <rdfs:label xml:lang="en">The_Fly</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
