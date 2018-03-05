@@ -8,7 +8,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.horrormovies.com/ontologies/horrormovies.jill">
-        <rdfs:comment>A horror movie ontology that describes the various types of films within this genre, their recommended audience ratings, when they were released, and their country of production.</rdfs:comment>
+        <cats:cat_0000182>A horror movie ontology that describes the various types of films within this genre, their recommended audience ratings, when they were released, and their country of production.</cats:cat_0000182>
+        <cats:cat_0000229>All movie synopses were retrieved from www.imdb.com</cats:cat_0000229>
     </owl:Ontology>
     
 
@@ -41,6 +42,14 @@
     
 
 
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000229 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000229">
+        <rdfs:label xml:lang="en">References</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -55,7 +64,7 @@
     <!-- http://www.cat.com/ontologies/cats.owl/cat_0000183 -->
 
     <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000183">
-        <owl:inverseOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000193"/>
+        <cats:cat_0000182>Predicate creating relationship between film and film release decade.</cats:cat_0000182>
         <rdfs:label xml:lang="en">hasReleaseDate</rdfs:label>
     </owl:ObjectProperty>
     
@@ -64,7 +73,7 @@
     <!-- http://www.cat.com/ontologies/cats.owl/cat_0000184 -->
 
     <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000184">
-        <owl:inverseOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000192"/>
+        <cats:cat_0000182>Predicate creating relationship between film and film rating.</cats:cat_0000182>
         <rdfs:label xml:lang="en">hasRating</rdfs:label>
     </owl:ObjectProperty>
     
@@ -73,7 +82,7 @@
     <!-- http://www.cat.com/ontologies/cats.owl/cat_0000185 -->
 
     <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000185">
-        <owl:inverseOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000191"/>
+        <cats:cat_0000182>Predicate creating relationship between film and film color type.</cats:cat_0000182>
         <rdfs:label xml:lang="en">hasFilmColor</rdfs:label>
     </owl:ObjectProperty>
     
@@ -82,7 +91,7 @@
     <!-- http://www.cat.com/ontologies/cats.owl/cat_0000187 -->
 
     <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000187">
-        <owl:inverseOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000190"/>
+        <cats:cat_0000182>Predicate creating relationship between film and film&apos;s primary country of origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">hasPrimaryCountryOrigin</rdfs:label>
     </owl:ObjectProperty>
     
@@ -91,53 +100,8 @@
     <!-- http://www.cat.com/ontologies/cats.owl/cat_0000188 -->
 
     <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000188">
-        <owl:inverseOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000189"/>
+        <cats:cat_0000182>Predicate creating relationship between film and horror subgenre.</cats:cat_0000182>
         <rdfs:label xml:lang="en">hasGenre</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000189 -->
-
-    <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000189">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label xml:lang="en">isGenreof</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000190 -->
-
-    <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000190">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label xml:lang="en">isPrimaryCountryOriginof</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000191 -->
-
-    <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000191">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label xml:lang="en">isFilmColorof</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000192 -->
-
-    <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000192">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label xml:lang="en">isRatingof</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000193 -->
-
-    <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000193">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label xml:lang="en">isReleaseDateof</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -157,6 +121,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000000">
         <cats:cat_0000182>Horror movies are films designed to create fear, dread, and within the viewer. Often tapping into our biggest fears, they can cause elevated heart rates and feelings of terror.</cats:cat_0000182>
+        <cats:cat_0000229>All movie synopses were retrieved from www.imdb.com</cats:cat_0000229>
         <rdfs:label xml:lang="en">Horror_Movies</rdfs:label>
     </owl:Class>
     
@@ -4358,7 +4323,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000194">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Italy is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Italy is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Italy</rdfs:label>
     </owl:Class>
     
@@ -4368,7 +4333,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000195">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Canada is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Canada is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Canada</rdfs:label>
     </owl:Class>
     
@@ -4378,7 +4343,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000196">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>The United States of America are the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>The United States of America is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">United_States</rdfs:label>
     </owl:Class>
     
@@ -4427,7 +4392,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000201">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Chile is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Chile is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Chile</rdfs:label>
     </owl:Class>
     
@@ -4437,7 +4402,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000202">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Spain is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Spain is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Spain</rdfs:label>
     </owl:Class>
     
@@ -4447,7 +4412,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000203">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Serbia is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Serbia is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Serbia</rdfs:label>
     </owl:Class>
     
@@ -4457,7 +4422,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000204">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Germany is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Germany is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Germany</rdfs:label>
     </owl:Class>
     
@@ -4467,7 +4432,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000205">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Japan is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Japan is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Japan</rdfs:label>
     </owl:Class>
     
@@ -4477,7 +4442,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000206">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>France is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>France is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">France</rdfs:label>
     </owl:Class>
     
@@ -4487,7 +4452,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000207">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Denmark is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Denmark is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Denmark</rdfs:label>
     </owl:Class>
     
@@ -4497,7 +4462,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000208">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Kazakhstan is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Kazakhstan is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Kazakhstan</rdfs:label>
     </owl:Class>
     
@@ -4507,7 +4472,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000209">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Turkey is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Turkey is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Turkey</rdfs:label>
     </owl:Class>
     
@@ -4550,7 +4515,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000211">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Sweden is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Sweden is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Sweden</rdfs:label>
     </owl:Class>
     
@@ -4599,7 +4564,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000213">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>United Kingdom is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>The United Kingdom is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">United_Kingdom</rdfs:label>
     </owl:Class>
     
@@ -4609,7 +4574,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000214">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Mexico is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Mexico is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Mexico</rdfs:label>
     </owl:Class>
     
@@ -4619,7 +4584,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000215">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Romania is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Romania is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Romania</rdfs:label>
     </owl:Class>
     
@@ -4629,7 +4594,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000216">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Hungary is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Hungary is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Hungary</rdfs:label>
     </owl:Class>
     
@@ -4639,7 +4604,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000217">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Bazil is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Bazil is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Brazil</rdfs:label>
     </owl:Class>
     
@@ -4649,7 +4614,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000218">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Czech Republic is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Czech Republic is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Czech_Republic</rdfs:label>
     </owl:Class>
     
@@ -4659,7 +4624,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000219">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Slovakia is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Slovakia is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Slovakia</rdfs:label>
     </owl:Class>
     
@@ -4669,7 +4634,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000220">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
-        <cats:cat_0000182>Iceland is the location of a films initial release.</cats:cat_0000182>
+        <cats:cat_0000182>Iceland is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Iceland</rdfs:label>
     </owl:Class>
     
@@ -4713,6 +4678,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000222">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
+        <cats:cat_0000182>South Korea is the primary location of the films origin.</cats:cat_0000182>
         <rdfs:label xml:lang="en">South_Korea</rdfs:label>
     </owl:Class>
     
