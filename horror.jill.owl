@@ -4675,6 +4675,49 @@
     
 
 
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000221 -->
+
+    <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000221">
+        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000183"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000184"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000185"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000222"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <cats:cat_0000181>After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.</cats:cat_0000181>
+        <rdfs:label xml:lang="en">Old_Boy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cat.com/ontologies/cats.owl/cat_0000222 -->
+
+    <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000222">
+        <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000005"/>
+        <rdfs:label xml:lang="en">South_Korea</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -4784,6 +4827,15 @@
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000068"/>
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000069"/>
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000070"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000078"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000079"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000080"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000221"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -5161,6 +5213,33 @@
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000218"/>
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000219"/>
             <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000220"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000194"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000195"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000201"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000202"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000203"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000204"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000205"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000206"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000207"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000208"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000209"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000211"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000213"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000214"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000215"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000216"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000217"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000218"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000219"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000220"/>
+            <rdf:Description rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000222"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
