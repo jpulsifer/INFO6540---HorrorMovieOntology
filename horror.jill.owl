@@ -83,7 +83,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000187">
         <owl:inverseOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000190"/>
-        <rdfs:label xml:lang="en">hasReleaseCountry</rdfs:label>
+        <rdfs:label xml:lang="en">hasPrimaryCountryOrigin</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -110,7 +110,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000190">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label xml:lang="en">isReleaseCountryof</rdfs:label>
+        <rdfs:label xml:lang="en">isPrimaryCountryOriginof</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -196,8 +196,8 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000005">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000000"/>
-        <cats:cat_0000182>The country in which a particular film was released.</cats:cat_0000182>
-        <rdfs:label xml:lang="en">Release_Country</rdfs:label>
+        <cats:cat_0000182>The primary country or countries of film origin.</cats:cat_0000182>
+        <rdfs:label xml:lang="en">Primary_Country_of_Film_Origin</rdfs:label>
     </owl:Class>
     
 
@@ -1921,7 +1921,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000187"/>
-                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000196"/>
+                <owl:allValuesFrom rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000194"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <cats:cat_0000181>After witnessing the murder of a famous psychic, a musician teams up with a feisty reporter to find the killer while evading attempts on their lives by the unseen assailant bent on keeping a dark secret buried.</cats:cat_0000181>
