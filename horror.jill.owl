@@ -161,7 +161,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000005">
         <rdfs:subClassOf rdf:resource="http://www.cat.com/ontologies/cats.owl/cat_0000000"/>
-        <cats:cat_0000182>The primary country or countries of film origin.</cats:cat_0000182>
+        <cats:cat_0000182>The primary country or countries of film origin, or the locations were the film is primarily produced, funded, or filmed.</cats:cat_0000182>
         <rdfs:label xml:lang="en">Primary_Country_of_Film_Origin</rdfs:label>
     </owl:Class>
     
