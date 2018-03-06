@@ -8,8 +8,11 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.horrormovies.com/ontologies/horrormovies.jill">
+        <cats:cat_0000229>All movie synopses were retrieved from: http://www.imdb.com
+
+Initial data sources were from: https://en.wikipedia.org/wiki/Category:Horror_films_by_genre and 
+http://popcornhorror.com/genres/</cats:cat_0000229>
         <cats:cat_0000182>A horror movie ontology that describes the various types of films within this genre, their recommended audience ratings, when they were released, and their country of production.</cats:cat_0000182>
-        <cats:cat_0000229>All movie synopses were retrieved from www.imdb.com</cats:cat_0000229>
     </owl:Ontology>
     
 
@@ -121,7 +124,7 @@
 
     <owl:Class rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000000">
         <cats:cat_0000182>Horror movies are films designed to create fear, dread, and within the viewer. Often tapping into our biggest fears, they can cause elevated heart rates and feelings of terror.</cats:cat_0000182>
-        <cats:cat_0000229>All movie synopses were retrieved from www.imdb.com</cats:cat_0000229>
+        <cats:cat_0000229>All movie synopses were retrieved from http://www.imdb.com</cats:cat_0000229>
         <rdfs:label xml:lang="en">Horror_Movies</rdfs:label>
     </owl:Class>
     
