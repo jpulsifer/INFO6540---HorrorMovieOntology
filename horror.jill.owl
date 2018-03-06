@@ -8,11 +8,11 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.horrormovies.com/ontologies/horrormovies.jill">
+        <cats:cat_0000182>A horror movie ontology that describes the various types of films within this genre, their recommended audience ratings, film color, when they were released, and their country of production.</cats:cat_0000182>
         <cats:cat_0000229>All movie synopses were retrieved from: http://www.imdb.com
 
-Initial data sources were from: https://en.wikipedia.org/wiki/Category:Horror_films_by_genre and 
-http://popcornhorror.com/genres/</cats:cat_0000229>
-        <cats:cat_0000182>A horror movie ontology that describes the various types of films within this genre, their recommended audience ratings, when they were released, and their country of production.</cats:cat_0000182>
+Initial data sources were retrieved from: https://en.wikipedia.org/wiki/Category:Horror_films_by_genre 
+and http://popcornhorror.com/genres/</cats:cat_0000229>
     </owl:Ontology>
     
 
@@ -32,7 +32,7 @@ http://popcornhorror.com/genres/</cats:cat_0000229>
 
     <owl:AnnotationProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000181">
         <cats:cat_0000182>A brief outline of the movie</cats:cat_0000182>
-        <rdfs:label xml:lang="en">synopsis</rdfs:label>
+        <rdfs:label xml:lang="en">Film_Synopsis</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -40,7 +40,7 @@ http://popcornhorror.com/genres/</cats:cat_0000229>
     <!-- http://www.cat.com/ontologies/cats.owl/cat_0000182 -->
 
     <owl:AnnotationProperty rdf:about="http://www.cat.com/ontologies/cats.owl/cat_0000182">
-        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <rdfs:label xml:lang="en">Definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
